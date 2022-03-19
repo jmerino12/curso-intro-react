@@ -44,7 +44,7 @@ export default function AppUI() {
         </Modal>
       )}
 
-      <CreateTodoButton setOpenModal={setOpenModal} openModal={openModal} />
+      <CreateTodoButton setOpenModal={setOpenModal} />
     </>
   );
 }
